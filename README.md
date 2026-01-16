@@ -1,4 +1,4 @@
-# project_Landing_Page_School_DNC
+# project_landing_page_school_dnc
 
 Project desenvolved for DNC school.
 
