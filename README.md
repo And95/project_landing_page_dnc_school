@@ -2,4 +2,4 @@
 
 Project desenvolved for DNC school.
 
-Link: https://projectlandingpageschooldncbyandreg.netlify.app
+Link: https://pj-landingpageschooldncbyag.netlify.app
