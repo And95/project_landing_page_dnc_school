@@ -1,31 +1,30 @@
-var setaDireita = window.document.getElementById("seta-direita");
-var Leonardo = window.document.getElementById("Leonardo");
-var Samantha = window.document.getElementById("Samantha");
-var Bruna = window.document.getElementById("Bruna");
-var setaEsquerda = window.document.getElementById("seta-esquerda");
+const setaDireita = document.getElementById("seta-direita");
+const setaEsquerda = document.getElementById("seta-esquerda");
+
+const leonardo = document.getElementById("Leonardo");
+const samantha = document.getElementById("Samantha");
+const bruna = document.getElementById("Bruna");
 
 function RolarParaDireita() {
-  Leonardo.style = "display: none;";
-  Bruna.style = "display: flex;";
-  setaDireita.style = "display: none;";
-  setaEsquerda.style = "display: flex; justify-self: end;";
+  leonardo.style.display = "none";
+  bruna.style.display = "block";
+
+  setaDireita.style.display = "none";
+  setaEsquerda.style.display = "block";
 }
 
 function RolarParaEsquerda() {
-  Leonardo.style = "display: flex;";
-  Bruna.style = "display: none;";
-  setaDireita.style = "display: flex;";
-  setaEsquerda.style = "display: none;";
+  leonardo.style.display = "block";
+  bruna.style.display = "none";
+
+  setaDireita.style.display = "block";
+  setaEsquerda.style.display = "none";
 }
 
 function ClearInputs() {
   setTimeout(() => {
-    const nameInput = document.getElementById("name");
-    const emailInput = document.getElementById("email");
-    const numberInput = document.getElementById("number");
-
-    if (nameInput) nameInput.value = "";
-    if (emailInput) emailInput.value = "";
-    if (numberInput) numberInput.value = "";
+    document.getElementById("name").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("number").value = "";
   }, 1000);
 }
