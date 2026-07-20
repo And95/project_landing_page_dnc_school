@@ -1,7 +1,21 @@
-# project_landing_page_dnc_school
+# Project Landing Page - DNC School
 
-Project desenvolved for DNC school.
+Landing page developed during the DNC School course.
 
-Link: https://pj-landingpageschooldncbyag.netlify.app
+## 🚀 Live Demo
 
-Google Sheets: https://docs.google.com/spreadsheets/d/1_e0hiqPIRj64OLbxUHHiUL0sRcvNOZgbRvQDVR4d2_8/edit?usp=sharing
+https://pj-landingpageschooldncbyag.netlify.app
+
+## 📌 Google Sheets
+
+https://docs.google.com/spreadsheets/d/1_e0hiqPIRj64OLbxUHHiUL0sRcvNOZgbRvQDVR4d2_8/edit?usp=sharing
+
+## 🛠️ Technologies
+
+- HTML5
+- CSS3
+- JavaScript
+
+## 👨‍💻 Author
+
+André Gonzaga
